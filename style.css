@@ -1,0 +1,18 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.header-top{
+    border-color: #e7e7e7;
+    min-height: 50px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    padding-top: 10px;
+    /* padding-right: 30px; */
+}
+
+.header-top-right{
+
+}
