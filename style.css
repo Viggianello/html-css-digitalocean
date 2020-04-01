@@ -6,14 +6,22 @@
 a{
     text-decoration: none;
 }
+.white{
+    color: white;
+}
+
+.bc-white{
+    background-color: white;
+}
 
 header{
     font-weight: bold;
     font-size: 12px;
+    /* padding-left: 15px; */
 }
 .header-top{
     min-height: 50px;
-    padding-top: 10px;
+    padding-top: 17px;
 }
 
 .header-top-right{
@@ -21,17 +29,48 @@ float: right;
 }
 .header-bottom{
     font-size: 14px;
+    background-color: white;
 }
 
-.header-top-left a{
+.header-top-left {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.header-top-left  a{
+    display: inline;
+    white-space: nowrap;
+}
 
 .img-logo{
-/* float: left; */
-max-width: 142px;
-/* max-width: auto; */
-max-height: 40px;
-/* background-size: contain; */
+    max-width: 142px;
+    padding-top: 13px;
+}
+
+.header-top a span{
+    color: rgb(3, 27, 78);
+    border-radius: 4px;
+    background-color:rgb(0, 215, 210);
+    padding: 5px 8px;
+}
+
+button{
+margin-top: 8px;
+}
+
+.prima-pagina{
+    background-image: url(img/sfondopesci.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.prima-pagina-testo{
+    padding: 50px 0;
+}
+
+.prima-pagina-testo p:first-child {
+    font-weight: bold;
+    font-size: 60px;
+}
+.prima-pagina-testo p:nth-child(2) {
+    font-size: 24px;
 }
