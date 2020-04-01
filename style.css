@@ -74,3 +74,14 @@ margin-top: 8px;
 .prima-pagina-testo p:nth-child(2) {
     font-size: 24px;
 }
+.bottone button{
+    background-color: #0069ff;
+    font-size: 16px;
+    /* font-style: normal;
+    font-weight: 400px; */
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.bottone{
+    padding: 10 60px;
+}
