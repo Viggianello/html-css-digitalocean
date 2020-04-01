@@ -3,14 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 } */
+a{
+    text-decoration: none;
+}
 
-.header-top{
-    /* border-bottom:1px solid #e7e7e7; */
-    min-height: 50px;
-    /* margin-bottom: 20px; */
+header{
+    font-weight: bold;
     font-size: 12px;
+}
+.header-top{
+    min-height: 50px;
     padding-top: 10px;
-    /* padding-right: 30px; */
 }
 
 .header-top-right{
@@ -18,4 +21,17 @@ float: right;
 }
 .header-bottom{
     font-size: 14px;
+}
+
+.header-top-left a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.img-logo{
+/* float: left; */
+max-width: 142px;
+/* max-width: auto; */
+max-height: 40px;
+/* background-size: contain; */
 }
