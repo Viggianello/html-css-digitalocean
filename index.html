@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="prima-pagina">
-        <header class="bc-white">
+            <header class="bc-white">
             <div class="header-top">
                 <div class="header-top-left col-xs-6">
 
@@ -82,14 +82,14 @@
 
         </header>
 
-        <div class="container prima-pagina-testo">
-                <div class="col-xs-6 white">
-                    <p class="h1">Welcome to the developer cloud</p>
+            <div class="container prima-pagina-testo">
+                <div class="col-lg-6 white col-sm-10"><!-- col-sm-10 col-sm-offset-1 xke non va? e neanche con xs-->
+                    <h1>Welcome to the developer cloud</h1>
                     <p>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
                 </div>
 
-                <div class="col-xs-5 col-xs-offset-1 bc-white">
-                    <form>
+                <div class="col-lg-5 col-lg-offset-1 bc-white col-sm-10 col-sm-offset-1"><!-- col-sm-10 col-sm-offset-1 xke non va? -->
+                    <form class=""><!-- forse è il form che non è responsive -->
                         <h2 class="text-center">Deploy in seconds</h2>
                         <div class="form-group">
                           <input type="text" class="form-control" id="exampleInputName" placeholder="Full name">
@@ -106,16 +106,16 @@
 
                       <p class="text-center">or sign up with</p>
 
-                      <div class=" contenitore-icone text-center">
-
+                      <div class="contenitore-icone text-center">
 
                           <a href="#"class="bottoni"><i class="fab fa-google"></i>Google</a>
                           <a href="#"class="bottoni"><i class="fab fa-github-square"></i>Git Hub</a>
 
                       </div>
-
-                      <p class="text-center small">By signing up you agree to the
-                          <a href="#">Terms of Service.</a></p>
+                        <div class="termini">
+                            <p class="small text-center">By signing up you agree to the
+                                <a href="#">Terms of Service.</a></p>
+                        </div>
 
                       <!-- <div class="container stella ">
                           <div class="row separatore-invert">
@@ -132,13 +132,12 @@
                               </div>
                           </div> -->
 
-
                     </form>
                 </div>
 
         </div> <!-- chiusa jumbotron -->
 
-    </div>
+        </div>
     <!-- <div class="seconda-pagina bc-white">
 
     </div> -->
