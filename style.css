@@ -96,17 +96,24 @@ h1{
     border: 1px solid rgba(0,105,255,.2);
     border-radius: 3px;
     padding: 10px 50px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     position: relative;
+    display: inline-block;
 }
+
 .termini{
     margin-top: 20px;
 }
+
 .contenitore-icone a i{
     position: absolute;
     left: 6px;
     transform: translateY(-50%);
     top: 50%;
+}
+
+.bottone .btn, .margine{
+    margin-bottom: 20px;
 }
 /* .separatore::{before,
 .separatore::after, .separatore-invert::before,
