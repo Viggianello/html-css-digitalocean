@@ -18,6 +18,7 @@ header{
     font-weight: bold;
     font-size: 12px;
     /* padding-left: 15px; */
+    /* position: fixed; */
 }
 .header-top{
     min-height: 50px;
@@ -129,19 +130,30 @@ h1{
     vertical-align: middle;
 }
 
-.seconda-pagina p{
-    padding-top: 80px;
-}
-
-.big-paddig{
-    padding-top: 140px;
+.big-padding{
+    padding-top: 120px;
 }
 
 .allineamento-img{
     display: inline-block;
     width: calc(100% / 2 - 4px);
 }
+.seconda-pagina-top h2{
+    color: rgba(3,27,78,.7);
+    font-size: 15px;
+}
 
+.seconda-pagina-bottom h2{
+    font-size: 36px;
+    letter-spacing: -.9px;
+    color: #031b4e;
+    font-weight: bold;
+}
+
+.seconda-pagina-bottom p{
+    font-size: 18px;
+    color: rgba(3,27,78,.7);
+}
 
 @media screen and (min-width: 768px) {
     .allineamento-img{
