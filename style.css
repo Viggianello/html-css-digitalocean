@@ -27,6 +27,7 @@ header{
 .header-top-right{
 float: right;
 }
+
 .header-bottom{
     font-size: 14px;
     background-color: white;
@@ -71,9 +72,11 @@ h1{
     font-weight: bold;
     font-size: 60px;
 }
+
 .prima-pagina-testo p:nth-child(2) {
     font-size: 24px;
 }
+
 .bottone button{
     background-color: #0069ff;
     font-size: 16px;
@@ -83,9 +86,11 @@ h1{
     border: 1px solid white;
     width: 100%;
 }
+
 .prima-pagina-testo p:nth-child(3) {
     font-size: 16px;
 }
+
 .navbar-default{
     background-color: white;
 }
@@ -114,6 +119,14 @@ h1{
 
 .bottone .btn, .margine{
     margin-bottom: 20px;
+}
+
+.seconda-pagina{
+    padding-top: 50px;
+}
+
+.img-altezza{
+    height: 140px;
 }
 /* .separatore::{before,
 .separatore::after, .separatore-invert::before,
