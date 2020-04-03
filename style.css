@@ -14,6 +14,14 @@ a, :hover a{
     background-color: white;
 }
 
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
 header{
     font-weight: bold;
     font-size: 12px;
@@ -138,20 +146,21 @@ h1{
     display: inline-block;
     width: calc(100% / 2 - 4px);
 }
+
 .seconda-pagina-top h2{
     color: rgba(3,27,78,.7);
     font-size: 15px;
 }
 
-.seconda-pagina-bottom h2{
+h2{
     font-size: 36px;
     letter-spacing: -.9px;
     color: #031b4e;
     font-weight: bold;
 }
 
-.seconda-pagina-bottom p{
-    font-size: 18px;
+.seconda-pagina-bottom p, .quarta-pagina p{
+    font-size: 20px;
     color: rgba(3,27,78,.7);
 }
 
@@ -162,10 +171,10 @@ h1{
     padding-top: 120px;
 }
 
-.terza-pagina img{
+/* .terza-pagina img{
     height: 40px;
     width: 40px;
-}
+} */
 
 .terza-pagina-left ul li{
     padding: 17px 10px 17px 30px;
@@ -191,6 +200,23 @@ h1{
     color: #031b4e;
 }
 
+body{
+background-color: #f3f5f9;
+}
+
+.quarta-pagina-central p/* (pulsanti finti)*/{
+    font-size: 60px;
+    padding-top: 50%;
+}
+
+/* .quarta-pagina-bottom ul{
+    list-style: circle;
+    color: black;
+} */
+
+.quarta-pagina-bottom ul li{
+
+}
 
 
 @media screen and (min-width: 768px) {
