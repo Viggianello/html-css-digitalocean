@@ -218,11 +218,22 @@ background-color: #f3f5f9;
 
 }
 
+@media screen and (max-width: 479px) {
+    .col-tutta-riga{
+        width: 100%;
+    }
+}
 
 @media screen and (min-width: 768px) {
     .allineamento-img{
         width: calc(100% / 6 - 4px);
     }
+}
+
+@media screen and (max-width: 767px){
+    .quarta-pagina-central p{
+        display: none;
+}
 }
 /* .separatore::{before,
 .separatore::after, .separatore-invert::before,
