@@ -162,6 +162,11 @@ h1{
     padding-top: 120px;
 }
 
+.terza-pagina img{
+    height: 40px;
+    width: 40px;
+}
+
 .terza-pagina-left ul li{
     padding: 17px 10px 17px 30px;
     border-left: 2px solid #e5e8ed;
